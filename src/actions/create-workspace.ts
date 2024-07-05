@@ -22,7 +22,7 @@ export const createWorkspace = async ({ imageUrl, name, slug, invite_code }: { i
     }).select('*');
 
     if (error) {
-        return {  error };
+        return { error };
     }
     const [updateWorkspaceData, updateWorkspaceError] = await updateUserWorkspace(userData.id, workspaceRecord[0].id);
 
