@@ -1,0 +1,1 @@
+bunx supabase gen types typescript --project-id "rhlcoccmxmgclgwimutf" --schema public > src/types/supabase.ts

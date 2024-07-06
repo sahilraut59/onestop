@@ -19,7 +19,7 @@ const MainContent: FC<{ children: ReactNode }> = ({ children }) => {
     <div className={cn('md:px-2 md:pb-2 md:pt-14 md:h-screen',backgroundColor)}>
       <main
         className={cn(
-          'md:ml-[280px] lg:ml-[420px] md:h-full overflow-y-scroll [&::-webkit-scrollbar-thumb]:rounded-[6px] [&::-webkit-scrollbar-thumb]:bg-foreground/60 [&::-webkit-scrollbar-track]:bg-none [&::-webkit-scrollbar]:w-2',
+          'md:ml-[280px] lg:ml-[420px] md:h-full overflow-y-hidden ',
           theme === 'dark' ? 'bg-[#232539]' : 'bg-white'
         )}
       >
