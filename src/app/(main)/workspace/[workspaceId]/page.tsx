@@ -9,7 +9,6 @@ import { Workspace as UserWorkspace } from '@/types/app';
 import InfoSection from '@/components/info-section';
 import { getUserWorkspaceChannels } from '@/actions/get-user-workspace-channels';
 import NoDataScreen from '@/components/no-data-screen';
-import { use } from 'react';
 
 const Workspace = async ({
   params: { workspaceId },
